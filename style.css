@@ -116,7 +116,7 @@ body{
 /* Navbar finished here */
 
 
-/* Home */
+                                /* Home */
 
 .main__container{
     width: 100%;
@@ -127,9 +127,9 @@ body{
     height: 500px;
 }
 
-/* Products */
+                                /* Products */
 
-/* About Us */
+                                /* About Us */
 
 .q {
     display: flex;
@@ -168,7 +168,7 @@ body{
 
 .title__aboutus h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 6rem;
+    font-size: 80px;
 }
 
 .hashtag {
@@ -467,9 +467,9 @@ margin-bottom: 3rem;
 /* Card team finish */
 
 
-/* Contact */
+                                /* Contact */
 
-/* Footer start here */
+                            /* Footer start here */
 
 .footer__container {
     width: 100%;
@@ -567,8 +567,15 @@ a:active {
 /* Footer ends here */
 
 
-/* BREAK-POINTS for media queries*/
+                    /* BREAK-POINTS for media queries*/
 @media screen and (max-width: 480px) {
+    
+    .title__aboutus h2 {
+        font-size: 30px;
+    }
+
+    
+    
     .footer__container {
         width: 100%;
         height: auto;
@@ -610,10 +617,6 @@ a:active {
         cursor: pointer;
 
     }
-
-    .title__aboutus h2 {
-        font-size: 20px;
-    }
 }
 
 @media screen and (max-width: 768px) {
@@ -646,7 +649,7 @@ a:active {
         top: 79px;
         left: 0;
         width: 100%;
-        height: 295px;
+        height: 350px;
         
         background: rgba(75, 22, 22, 0.1);
         border-bottom: 2px solid rgba(255, 255, 255, 0.2);
@@ -667,9 +670,9 @@ a:active {
         justify-content: space-evenly;
     }
 
-    .title__aboutus h2 {
-        font-size: 30px;
-    }
+    /* .title__aboutus h2 {
+        font-size: 60px;
+    } */
 
     .section__contact {
         display: flex;
@@ -716,9 +719,9 @@ a:active {
         margin-top: 30px;
         
     }
-    .title__aboutus h2 {
+    /* .title__aboutus h2 {
         font-size: 60px;
-    }
+    } */
     .footer__container {
         width: 100%;
         height: auto;
